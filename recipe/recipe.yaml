@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.13.1"
+  version: "0.14.0"
 
 package:
   name: shinyswatch
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/shinyswatch/shinyswatch-${{ version }}.tar.gz
-  sha256: c453a508728147b39710a551e4c82d83ca596be2a10c9c63fc331cff37a07818
+  sha256: 3ca13b0c6e2eef5e7ed62a39332f86951e12b28ed47c8d5d23c0d09d0581dead
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - typing_extensions >=3.10.0.0
     - packaging >=20.9
     - htmltools >=0.2.0
-    - shiny >=1.8.0
+    - shiny >=1.9.0
 
 tests:
   - python:
